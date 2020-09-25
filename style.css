@@ -77,6 +77,26 @@
 
 /* es6 */
 
+.ex-6-img:hover{
+  filter: grayscale(1);
+}
+
+/* es7 */
+
+.ex-7-img:hover{
+  transition: 3s;
+  filter:grayscale(1);
+  opacity: 0;
+}
+
+/* es8 */
+
+.ex-8-img:hover{
+  transition: 6s;
+  filter:grayscale(1);
+  border-radius: 5px;
+  filter: contrast(50%);
+}
 
 .ex-9-img {
     margin: 50px 100px;
