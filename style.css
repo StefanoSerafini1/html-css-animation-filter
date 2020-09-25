@@ -210,3 +210,44 @@
         left: 50%;
     }
 }
+
+/* es13 */
+
+.ex-13-top-white
+{
+  animation: movet 3s linear infinite;
+}
+
+.ex-13-bottom-white{
+  animation: moveb 3s linear infinite;
+}
+@keyframes movet {
+0% {
+  left: 10%;
+  top: -10px;
+}
+30% {
+  left: 100%;
+  top: -10px;
+}
+45% {
+  left: 100%;
+  top: 100%;
+}
+75% {
+  left: -20px;
+  top: 100%;
+}
+90% {
+  left: -20px;
+  top: -10px;
+}
+100% {
+  left: 10%;
+  top: -10px;
+}
+}
+
+@keyframes moveb {
+
+}
