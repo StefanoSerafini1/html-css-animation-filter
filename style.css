@@ -31,11 +31,26 @@
     height: 100px;
     background: red;
 }
+
+/* es3 */
+.ex-3-square:hover {
+    transition: 3s;
+    border-radius: 50%;
+}
+
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+/* es4 */
+
+.ex-4-square:hover {
+    transition: 3s;
+    opacity: 0;
+}
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
